@@ -9,4 +9,4 @@ rm -rf serve/public
 mv public serve/public
 
 echo 'Recreating docker container'
-docker-compose -f serve/docker-compose.yml up --force-recreate -d
+docker-compose -f serve/docker-compose.yml up --build -d
