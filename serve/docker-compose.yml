@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  hubo_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    networks:
+      - site
+
+networks:
+  site:
+    external: true
+    name: npm
