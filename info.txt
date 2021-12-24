@@ -1,1 +1,1 @@
-https://themes.gohugo.io/themes/hugo-theme-introduction/
+hugo --disableKinds=taxonomy,term

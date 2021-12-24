@@ -3,16 +3,7 @@ services:
   server:
     image: klakegg/hugo:0.83.1-busybox
     command: server
-    networks:
-      - site
-    environment:
-      - HUGO_ENV="production"
     volumes:
       - "./:/src"
     ports:
       - "1313:1313"
-
-networks:
-  site:
-    external: true
-    name: npm
