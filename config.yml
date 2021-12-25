@@ -24,11 +24,11 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -36,13 +36,6 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
-  assets:
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
@@ -61,13 +54,6 @@ params:
     - name: github
       url: "https://github.com/ImTheTom"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -77,8 +63,22 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-# menu:
-#   main:
-#     - identifier: Projects
-#       name: Projects
-#       url: /projects/
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weighting: 1
+    - identifier: archieve
+      name: Archieve
+      url: /archieve/
+      weighting: 3
+    - identifier: search
+      name: Search
+      url: /search/
+      weighting: 4

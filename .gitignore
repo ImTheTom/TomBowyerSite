@@ -3,3 +3,5 @@ public/
 production/public/
 
 .hugo_build.lock
+
+/resources/
