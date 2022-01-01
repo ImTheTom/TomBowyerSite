@@ -9,8 +9,6 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
-# White That Down Privacy Policy
-
 **Privacy Policy**
 
 Tom Bowyer built the White That Down app as a Free app. This SERVICE is provided by Tom Bowyer at no cost and is intended for use as is.
