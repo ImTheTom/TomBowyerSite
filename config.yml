@@ -75,10 +75,3 @@ params:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-menu:
-  main:
-    - identifier: Projects
-      name: Projects
-      url: /projects/
-      weighting: 1
