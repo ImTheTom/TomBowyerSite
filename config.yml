@@ -59,8 +59,12 @@ params:
     imageTitle: Myself
 
   socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tom-bowyer"
     - name: github
       url: "https://github.com/ImTheTom"
+    - name: email
+      url: "mailto:tom4310@gmail.com"
 
   fuseOpts:
     isCaseSensitive: false
