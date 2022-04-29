@@ -20,15 +20,25 @@ outputs:
     - RSS
     - JSON
 
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Book reviews
+          url: books/reviews/
+          weight: 5
+
 params:
   env: production
   title: Tom Bowyer
   description: "Tom Bower - Software developer"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Portfolio]
   author: Tom Bowyer
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
   search: true
   search_minify: false
 
@@ -63,8 +73,6 @@ params:
       url: "https://www.linkedin.com/in/tom-bowyer"
     - name: github
       url: "https://github.com/ImTheTom"
-    - name: email
-      url: "mailto:tom4310@gmail.com"
 
   fuseOpts:
     isCaseSensitive: false
