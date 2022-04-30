@@ -7,6 +7,8 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
-| Title | Author | Stars |
-|-------|--------|-------|
-| example | example | 5/5 |
+I wanted to start reading more software related books. This page here is to rate books I've read and to try to hold me accountable.
+
+| Title | Author | Date | Stars |
+|-------|--------|------|-------|
+| example | example | 02/02/20222 | 5/5 |
