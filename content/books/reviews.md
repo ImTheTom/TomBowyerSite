@@ -11,4 +11,4 @@ I wanted to start reading more software related books. This page here is to rate
 
 | Title | Author | Date | Stars |
 |-------|--------|------|-------|
-| example | example | 02/02/20222 | 5/5 |
+| Clean Code: A Handbook of Agile Software Craftsmanship | Robert C. Martin | 01/05/20222 | Currently reading |
