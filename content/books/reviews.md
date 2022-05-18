@@ -7,7 +7,7 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
-I wanted to start reading more software related books. This page here is to rate books I've read and to try to hold me accountable.
+I wanted to start reading more software development related books. This page here is to rate books I've read. It's also an attempt to try to hold myself accountable.
 
 | Title | Author | Date | Stars |
 |-------|--------|------|-------|
