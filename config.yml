@@ -24,11 +24,6 @@ languages:
   en:
     languageName: "English"
     weight: 1
-    menu:
-      main:
-        - name: Book reviews
-          url: books/reviews/
-          weight: 5
 
 params:
   env: production
