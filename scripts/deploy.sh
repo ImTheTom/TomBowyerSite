@@ -12,7 +12,7 @@ rm -rf "$HUGO_DIRECTORY/production/public"
 mv "$HUGO_DIRECTORY/public" "$HUGO_DIRECTORY/production/public"
 
 echo 'Recreating docker container'
-docker-compose -f "$HUGO_DIRECTORY/production/docker-compose.yml" up --build -d
+docker compose -f "$HUGO_DIRECTORY/production/docker-compose.yml" up --build -d
 
 echo 'Cleaning up'
 rm -rf "$HUGO_DIRECTORY/.hugo_build.lock"
